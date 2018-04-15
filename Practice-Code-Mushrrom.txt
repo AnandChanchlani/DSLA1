@@ -1,0 +1,650 @@
+
+R version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+Microsoft R Open 3.3.2
+The enhanced R distribution from Microsoft
+Microsoft packages Copyright (C) 2017 Microsoft
+
+Loading Microsoft R Client packages, version 3.3.2.0033. 
+Microsoft R Client limits some functions to available memory.
+See: https://msdn.microsoft.com/en-us/microsoft-r-client-windows for information
+about additional features.
+
+Type 'readme()' for release notes, privacy() for privacy policy, or
+'RevoLicense()' for licensing information.
+
+Using the Intel MKL for parallel mathematical computing(using 2 cores).
+Default CRAN mirror snapshot taken on 2016-11-01.
+See: https://mran.microsoft.com/.
+
+> install.packages("swirl")
+Installing package into ‘C:/Users/M1024444/Documents/R/win-library/3.3’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘stringi’, ‘magrittr’, ‘crayon’, ‘praise’, ‘mime’, ‘openssl’, ‘bitops’, ‘stringr’, ‘testthat’, ‘httr’, ‘yaml’, ‘RCurl’, ‘digest’
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/stringi_1.1.2.zip'
+Content type 'application/zip' length 14264581 bytes (13.6 MB)
+downloaded 13.6 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/magrittr_1.5.zip'
+Content type 'application/zip' length 150882 bytes (147 KB)
+downloaded 147 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/crayon_1.3.2.zip'
+Content type 'application/zip' length 703651 bytes (687 KB)
+downloaded 687 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/praise_1.0.0.zip'
+Content type 'application/zip' length 17691 bytes (17 KB)
+downloaded 17 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/mime_0.5.zip'
+Content type 'application/zip' length 37486 bytes (36 KB)
+downloaded 36 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/openssl_0.9.5.zip'
+Content type 'application/zip' length 3041433 bytes (2.9 MB)
+downloaded 2.9 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/bitops_1.0-6.zip'
+Content type 'application/zip' length 36381 bytes (35 KB)
+downloaded 35 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/stringr_1.1.0.zip'
+Content type 'application/zip' length 119555 bytes (116 KB)
+downloaded 116 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/testthat_1.0.2.zip'
+Content type 'application/zip' length 1030489 bytes (1006 KB)
+downloaded 1006 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/httr_1.2.1.zip'
+Content type 'application/zip' length 279235 bytes (272 KB)
+downloaded 272 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/yaml_2.1.13.zip'
+Content type 'application/zip' length 175767 bytes (171 KB)
+downloaded 171 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/RCurl_1.95-4.8.zip'
+Content type 'application/zip' length 2854804 bytes (2.7 MB)
+downloaded 2.7 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/digest_0.6.10.zip'
+Content type 'application/zip' length 169707 bytes (165 KB)
+downloaded 165 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/swirl_2.4.2.zip'
+Content type 'application/zip' length 212352 bytes (207 KB)
+downloaded 207 KB
+
+package ‘stringi’ successfully unpacked and MD5 sums checked
+package ‘magrittr’ successfully unpacked and MD5 sums checked
+package ‘crayon’ successfully unpacked and MD5 sums checked
+package ‘praise’ successfully unpacked and MD5 sums checked
+package ‘mime’ successfully unpacked and MD5 sums checked
+package ‘openssl’ successfully unpacked and MD5 sums checked
+package ‘bitops’ successfully unpacked and MD5 sums checked
+package ‘stringr’ successfully unpacked and MD5 sums checked
+package ‘testthat’ successfully unpacked and MD5 sums checked
+package ‘httr’ successfully unpacked and MD5 sums checked
+package ‘yaml’ successfully unpacked and MD5 sums checked
+package ‘RCurl’ successfully unpacked and MD5 sums checked
+package ‘digest’ successfully unpacked and MD5 sums checked
+package ‘swirl’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\M1024444\AppData\Local\Temp\RtmpQFASUT\downloaded_packages
+> library("swril")
+Error in library("swril") : there is no package called ‘swril’
+> library("swirl")
+
+| Hi! Type swirl() when you are ready to begin.
+
+> swril()
+Error: could not find function "swril"
+> swirl()
+
+| Welcome to swirl! Please sign in. If you've been here before, use the same name as you did
+| then. If you are new, call yourself something unique.
+
+What shall I call you? andy
+
+| Thanks, andy. Let's cover a couple of quick housekeeping items before we begin our first
+| lesson. First of all, you should know that when you see '...', that means you should press
+| Enter when you are done reading and ready to continue.
+
+...  <-- That's your cue to press Enter to continue
+
+| Also, when you see 'ANSWER:', the R prompt (>), or when you are asked to select from a list,
+| that means it's your turn to enter a response, then press Enter to continue.
+
+Select 1, 2, or 3 and press Enter 
+
+1: Continue.
+2: Proceed.
+3: Let's get going!
+
+Selection: 1
+
+| You can exit swirl and return to the R prompt (>) at any time by pressing the Esc key. If you
+| are already at the prompt, type bye() to exit and save your progress. When you exit properly,
+| you'll see a short message letting you know you've done so.
+
+| When you are at the R prompt (>):
+| -- Typing skip() allows you to skip the current question.
+| -- Typing play() lets you experiment with R on your own; swirl will ignore what you do...
+| -- UNTIL you type nxt() which will regain swirl's attention.
+| -- Typing bye() causes swirl to exit. Your progress will be saved.
+| -- Typing main() returns you to swirl's main menu.
+| -- Typing info() displays these options again.
+
+| Let's get started!
+
+...
+
+| To begin, you must install a course. I can install a course for you from the internet, or I
+| can send you to a web page (https://github.com/swirldev/swirl_courses) which will provide
+| course options and directions for installing courses yourself. (If you are not connected to
+| the internet, type 0 to exit.)
+
+1: R Programming: The basics of programming in R
+2: Regression Models: The basics of regression modeling in R
+3: Statistical Inference: The basics of statistical inference in R
+4: Exploratory Data Analysis: The basics of exploring data in R
+5: Don't install anything for me. I'll do it myself.
+
+Selection: 5
+
+| OK. I'm opening the swirl course respository in your browser.
+
+| Leaving swirl now. Type swirl() to resume.
+
+> install.packages("caret")
+Installing package into ‘C:/Users/M1024444/Documents/R/win-library/3.3’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘colorspace’, ‘minqa’, ‘nloptr’, ‘RcppEigen’, ‘RColorBrewer’, ‘dichromat’, ‘munsell’, ‘labeling’, ‘lme4’, ‘SparseM’, ‘MatrixModels’, ‘gtable’, ‘scales’, ‘pbkrtest’, ‘quantreg’, ‘Rcpp’, ‘ggplot2’, ‘car’, ‘plyr’, ‘reshape2’
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/colorspace_1.2-7.zip'
+Content type 'application/zip' length 398595 bytes (389 KB)
+downloaded 389 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/minqa_1.2.4.zip'
+Content type 'application/zip' length 619243 bytes (604 KB)
+downloaded 604 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/nloptr_1.0.4.zip'
+Content type 'application/zip' length 1171877 bytes (1.1 MB)
+downloaded 1.1 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/RcppEigen_0.3.2.9.0.zip'
+Content type 'application/zip' length 2104551 bytes (2.0 MB)
+downloaded 2.0 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/RColorBrewer_1.1-2.zip'
+Content type 'application/zip' length 26721 bytes (26 KB)
+downloaded 26 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/dichromat_2.0-0.zip'
+Content type 'application/zip' length 147734 bytes (144 KB)
+downloaded 144 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/munsell_0.4.3.zip'
+Content type 'application/zip' length 134090 bytes (130 KB)
+downloaded 130 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/labeling_0.3.zip'
+Content type 'application/zip' length 40862 bytes (39 KB)
+downloaded 39 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/lme4_1.1-12.zip'
+Content type 'application/zip' length 4744444 bytes (4.5 MB)
+downloaded 4.5 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/SparseM_1.72.zip'
+Content type 'application/zip' length 948151 bytes (925 KB)
+downloaded 925 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/MatrixModels_0.4-1.zip'
+Content type 'application/zip' length 195758 bytes (191 KB)
+downloaded 191 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/gtable_0.2.0.zip'
+Content type 'application/zip' length 57608 bytes (56 KB)
+downloaded 56 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/scales_0.4.0.zip'
+Content type 'application/zip' length 667480 bytes (651 KB)
+downloaded 651 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/pbkrtest_0.4-6.zip'
+Content type 'application/zip' length 213108 bytes (208 KB)
+downloaded 208 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/quantreg_5.29.zip'
+Content type 'application/zip' length 2203263 bytes (2.1 MB)
+downloaded 2.1 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/Rcpp_0.12.7.zip'
+Content type 'application/zip' length 3265183 bytes (3.1 MB)
+downloaded 3.1 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/ggplot2_2.1.0.zip'
+Content type 'application/zip' length 2001295 bytes (1.9 MB)
+downloaded 1.9 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/car_2.1-3.zip'
+Content type 'application/zip' length 1446795 bytes (1.4 MB)
+downloaded 1.4 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/plyr_1.8.4.zip'
+Content type 'application/zip' length 1183619 bytes (1.1 MB)
+downloaded 1.1 MB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/reshape2_1.4.2.zip'
+Content type 'application/zip' length 566045 bytes (552 KB)
+downloaded 552 KB
+
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/caret_6.0-71.zip'
+Content type 'application/zip' length 4823482 bytes (4.6 MB)
+downloaded 4.6 MB
+
+package ‘colorspace’ successfully unpacked and MD5 sums checked
+package ‘minqa’ successfully unpacked and MD5 sums checked
+package ‘nloptr’ successfully unpacked and MD5 sums checked
+package ‘RcppEigen’ successfully unpacked and MD5 sums checked
+package ‘RColorBrewer’ successfully unpacked and MD5 sums checked
+package ‘dichromat’ successfully unpacked and MD5 sums checked
+package ‘munsell’ successfully unpacked and MD5 sums checked
+package ‘labeling’ successfully unpacked and MD5 sums checked
+package ‘lme4’ successfully unpacked and MD5 sums checked
+package ‘SparseM’ successfully unpacked and MD5 sums checked
+package ‘MatrixModels’ successfully unpacked and MD5 sums checked
+package ‘gtable’ successfully unpacked and MD5 sums checked
+package ‘scales’ successfully unpacked and MD5 sums checked
+package ‘pbkrtest’ successfully unpacked and MD5 sums checked
+package ‘quantreg’ successfully unpacked and MD5 sums checked
+package ‘Rcpp’ successfully unpacked and MD5 sums checked
+package ‘ggplot2’ successfully unpacked and MD5 sums checked
+package ‘car’ successfully unpacked and MD5 sums checked
+package ‘plyr’ successfully unpacked and MD5 sums checked
+package ‘reshape2’ successfully unpacked and MD5 sums checked
+package ‘caret’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\M1024444\AppData\Local\Temp\RtmpQFASUT\downloaded_packages
+> data() ?
++ 
++ bye
+Error in `?`(data(), bye) : 
+  c("no documentation of type ‘Data sets’ and topic ‘bye’ (or error in processing help)", "no documentation of type ‘NULL’ and topic ‘bye’ (or error in processing help)", "no documentation of type ‘c(\"lattice\", \"lattice\", \"lattice\", \"lattice\", \"lattice\", \"rpart\", \"rpart\", \"rpart\", \"rpart\", \"rpart\", \"rpart\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \n\"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \"datasets\", \
+In addition: Warning message:
+In if (type == "package") package <- topic :
+  the condition has length > 1 and only the first element will be used
+> library(xlxs)
+Error in library(xlxs) : there is no package called ‘xlxs’
+> library(xlsx)
+Error in library(xlsx) : there is no package called ‘xlsx’
+> mushroom_dataset <- read.xlsx("D:/Anand/DSLA/OneDrive_1_4-11-2018/Week 2 Class Material/Mushroom Case/mushrooms.csv")
+Error: could not find function "read.xlsx"
+> mushroom_dataset <- read.csv("D:/Anand/DSLA/OneDrive_1_4-11-2018/Week 2 Class Material/Mushroom Case/mushrooms.csv")
+> View(mushroom_dataset)
+> head(mushroom_dataset,5)
+  class cap.shape cap.surface cap.color bruises odor gill.attachment gill.spacing gill.size
+1     p         x           s         n       t    p               f            c         n
+2     e         x           s         y       t    a               f            c         b
+3     e         b           s         w       t    l               f            c         b
+4     p         x           y         w       t    p               f            c         n
+5     e         x           s         g       f    n               f            w         b
+  gill.color stalk.shape stalk.root stalk.surface.above.ring stalk.surface.below.ring
+1          k           e          e                        s                        s
+2          k           e          c                        s                        s
+3          n           e          c                        s                        s
+4          n           e          e                        s                        s
+5          k           t          e                        s                        s
+  stalk.color.above.ring stalk.color.below.ring veil.type veil.color ring.number ring.type
+1                      w                      w         p          w           o         p
+2                      w                      w         p          w           o         p
+3                      w                      w         p          w           o         p
+4                      w                      w         p          w           o         p
+5                      w                      w         p          w           o         e
+  spore.print.color population habitat
+1                 k          s       u
+2                 n          n       g
+3                 n          n       m
+4                 k          s       u
+5                 n          a       g
+> #Load the Caret package which allows us to partition the data
+> library(caret)
+Loading required package: ggplot2
+> # We use the dataset to create a partition (80% training 20% testing)
+> index <- createDataPartition(mushroom_dataset$Species, p=0.80, list=FALSE)
+Error in createDataPartition(mushroom_dataset$Species, p = 0.8, list = FALSE) : 
+  y must have at least 2 data points
+> # We use the dataset to create a partition (80% training 20% testing)
+> index <- createDataPartition(mushroom_dataset$class, p=0.80, list=FALSE)
+> # select 20% of the data for testing
+> testset <- mushroom_dataset[-index,]
+> # select 80% of data to train the models
+> trainset <- mushroom_dataset[index,]
+> # Dimensions of the data
+> dim(trainset)
+[1] 6500   23
+> # Structure of the data
+> str(trainset)
+'data.frame':	6500 obs. of  23 variables:
+ $ class                   : Factor w/ 2 levels "e","p": 2 1 1 2 1 1 1 1 1 1 ...
+ $ cap.shape               : Factor w/ 6 levels "b","c","f","k",..: 6 6 1 6 6 6 1 1 6 6 ...
+ $ cap.surface             : Factor w/ 4 levels "f","g","s","y": 3 3 3 4 3 4 4 3 4 4 ...
+ $ cap.color               : Factor w/ 10 levels "b","c","e","g",..: 5 10 9 9 4 10 9 10 10 10 ...
+ $ bruises                 : Factor w/ 2 levels "f","t": 2 2 2 2 1 2 2 2 2 2 ...
+ $ odor                    : Factor w/ 9 levels "a","c","f","l",..: 7 1 4 7 6 1 4 1 4 1 ...
+ $ gill.attachment         : Factor w/ 2 levels "a","f": 2 2 2 2 2 2 2 2 2 2 ...
+ $ gill.spacing            : Factor w/ 2 levels "c","w": 1 1 1 1 2 1 1 1 1 1 ...
+ $ gill.size               : Factor w/ 2 levels "b","n": 2 1 1 2 1 1 1 1 1 1 ...
+ $ gill.color              : Factor w/ 12 levels "b","e","g","h",..: 5 5 6 6 5 6 6 3 3 6 ...
+ $ stalk.shape             : Factor w/ 2 levels "e","t": 1 1 1 1 2 1 1 1 1 1 ...
+ $ stalk.root              : Factor w/ 5 levels "?","b","c","e",..: 4 3 3 4 4 3 3 3 3 3 ...
+ $ stalk.surface.above.ring: Factor w/ 4 levels "f","k","s","y": 3 3 3 3 3 3 3 3 3 3 ...
+ $ stalk.surface.below.ring: Factor w/ 4 levels "f","k","s","y": 3 3 3 3 3 3 3 3 3 3 ...
+ $ stalk.color.above.ring  : Factor w/ 9 levels "b","c","e","g",..: 8 8 8 8 8 8 8 8 8 8 ...
+ $ stalk.color.below.ring  : Factor w/ 9 levels "b","c","e","g",..: 8 8 8 8 8 8 8 8 8 8 ...
+ $ veil.type               : Factor w/ 1 level "p": 1 1 1 1 1 1 1 1 1 1 ...
+ $ veil.color              : Factor w/ 4 levels "n","o","w","y": 3 3 3 3 3 3 3 3 3 3 ...
+ $ ring.number             : Factor w/ 3 levels "n","o","t": 2 2 2 2 2 2 2 2 2 2 ...
+ $ ring.type               : Factor w/ 5 levels "e","f","l","n",..: 5 5 5 5 1 5 5 5 5 5 ...
+ $ spore.print.color       : Factor w/ 9 levels "b","h","k","n",..: 3 4 4 3 4 3 4 3 4 3 ...
+ $ population              : Factor w/ 6 levels "a","c","n","s",..: 4 3 3 4 1 3 4 4 3 4 ...
+ $ habitat                 : Factor w/ 7 levels "d","g","l","m",..: 6 2 4 6 2 2 4 4 2 4 ...
+> # Summary of the data
+> summary(trainset)
+ class    cap.shape cap.surface   cap.color    bruises       odor      gill.attachment
+ e:3367   b: 358    f:1870      n      :1829   f:3804   n      :2841   a: 170         
+ p:3133   c:   3    g:   3      g      :1488   t:2696   f      :1738   f:6330         
+          f:2557    s:2045      e      :1199            y      : 454                  
+          k: 653    y:2582      y      : 850            s      : 453                  
+          s:  23                w      : 815            a      : 320                  
+          x:2906                b      : 133            l      : 311                  
+                                (Other): 186            (Other): 383                  
+ gill.spacing gill.size   gill.color   stalk.shape stalk.root stalk.surface.above.ring
+ c:5447       b:4505    b      :1373   e:2824      ?:1975     f: 435                  
+ w:1053       n:1995    p      :1189   t:3676      b:3039     k:1883                  
+                        w      : 968               c: 440     s:4160                  
+                        n      : 831               e: 899     y:  22                  
+                        g      : 621               r: 147                             
+                        h      : 574                                                  
+                        (Other): 944                                                  
+ stalk.surface.below.ring stalk.color.above.ring stalk.color.below.ring veil.type veil.color
+ f: 473                   w      :3562           w      :3492           p:6500    n:  79    
+ k:1852                   p      :1500           p      :1503                     o:  79    
+ s:3955                   g      : 462           g      : 458                     w:6336    
+ y: 220                   b      : 356           n      : 422                     y:   6    
+                          n      : 355           b      : 348                               
+                          o      : 158           o      : 158                               
+                          (Other): 107           (Other): 119                               
+ ring.number ring.type spore.print.color population habitat 
+ n:  24      e:2221    w      :1901      a: 310     d:2524  
+ o:5986      f:  32    n      :1573      c: 271     g:1731  
+ t: 490      l:1047    k      :1503      n: 315     l: 669  
+             n:  24    h      :1304      s:1003     m: 234  
+             p:3176    r      :  65      v:3220     p: 900  
+                       b      :  41      y:1381     u: 285  
+                       (Other): 113                 w: 157  
+> # Levels of the prediction column
+> levels(trainset$class)
+[1] "e" "p"
+> # Levels of the prediction column
+> levels(trainset$size)
+NULL
+> # Levels of the prediction column
+> levels(trainset$gill.size)
+[1] "b" "n"
+> ## Histogram
+> hist(trainset$gill.size)
+Error in hist.default(trainset$gill.size) : 'x' must be numeric
+> ## Histogram
+> hist(trainset$population)
+Error in hist.default(trainset$population) : 'x' must be numeric
+> #Odor and SporePrintColor are the best predictors
+> p = ggplot(data,aes(x=CapShape, y=CapSurface, color=Edible))
+> print(p)
+Error in if (is.waive(data) || empty(data)) return(cbind(data, PANEL = integer(0))) : 
+  missing value where TRUE/FALSE needed
+> #Odor and SporePrintColor are the best predictors
+> ggplot(data,aes(x=CapShape, y=CapSurface, color=Edible))
+Error in if (is.waive(data) || empty(data)) return(cbind(data, PANEL = integer(0))) : 
+  missing value where TRUE/FALSE needed
+> #Odor and SporePrintColor are the best predictors
+> ggplot(trainset,aes(x=CapShape, y=CapSurface, color=Edible))
+Error in eval(expr, envir, enclos) : object 'CapShape' not found
+> #Odor and SporePrintColor are the best predictors
+> ggplot(trainset,aes(x=cap.shape, y=cap.surface, color=Edible))
+Error in eval(expr, envir, enclos) : object 'Edible' not found
+> #Odor and SporePrintColor are the best predictors
+> ggplot(trainset,aes(x=cap.shape, y=cap.surface, class=e))
+Error in eval(expr, envir, enclos) : object 'e' not found
+> #Odor and SporePrintColor are the best predictors
+> ggplot(trainset,aes(x=cap.shape, y=cap.surface, class='e'))
+> p=ggplot(trainset,aes(x=cap.shape, y=cap.surface, class='e'))
+> print(p)
+> p=ggplot(mushroom_dataset,aes(x=cap.shape, y=cap.surface, class='e'))
+> print(p)
+> p + geom_jitter(alpha=0.3) + 
++     scale_color_manual(breaks = c('e','p'),
++                        values=c('darkgreen','red'))
+> p + geom_jitter(alpha=0.3) + 
++     scale_color_manual(breaks = c('e','p'),
++                        values=c('yellow','red'))
+> library(caret)
+> set.seed(1000)
+> #Fit Random Forest Model
+> rf = randomForest(e ~ ., 
++                   ntree = 100,
++                   data = trainset)
+Error: could not find function "randomForest"
+> p = ggplot(data,aes(x=Edible, y=odor, color = Edible))
+> p + geom_jitter(alpha=0.2) + scale_color_manual(breaks = c('e','p'),values=c('darkgreen','red'))
+Error in if (is.waive(data) || empty(data)) return(cbind(data, PANEL = integer(0))) : 
+  missing value where TRUE/FALSE needed
+> p = ggplot(trainset,aes(x=Edible, y=odor, color = Edible))
+> p + geom_jitter(alpha=0.2) + scale_color_manual(breaks = c('e','p'),values=c('darkgreen','red'))
+Error in eval(expr, envir, enclos) : object 'Edible' not found
+> p = ggplot(trainset,aes(x=e, y=odor, color = 'p'))
+> p + geom_jitter(alpha=0.2) + scale_color_manual(breaks = c('e','p'),values=c('darkgreen','red'))
+Error in eval(expr, envir, enclos) : object 'e' not found
+> library(randomForest)
+Error in library(randomForest) : 
+  there is no package called ‘randomForest’
+> install.packages('randomForest')
+Installing package into ‘C:/Users/M1024444/Documents/R/win-library/3.3’
+(as ‘lib’ is unspecified)
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/randomForest_4.6-12.zip'
+Content type 'application/zip' length 177208 bytes (173 KB)
+downloaded 173 KB
+
+package ‘randomForest’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\M1024444\AppData\Local\Temp\RtmpQFASUT\downloaded_packages
+> library(randomForest)
+randomForest 4.6-12
+Type rfNews() to see new features/changes/bug fixes.
+
+Attaching package: ‘randomForest’
+
+The following object is masked from ‘package:ggplot2’:
+
+    margin
+
+> #Fit Random Forest Model
+> rf = randomForest(Edible ~ ., 
++                   ntree = 100,
++                   data = trainset)
+Error in eval(expr, envir, enclos) : object 'Edible' not found
+> #Fit Random Forest Model
+> rf = randomForest(e ~ ., 
++                   ntree = 100,
++                   data = trainset)
+Error in eval(expr, envir, enclos) : object 'e' not found
+> #Fit Random Forest Model
+> rf = randomForest(class='e' ~ ., 
++                   ntree = 100,
++                   data = trainset)
+Error in inherits(formula, "formula") : 
+  argument "formula" is missing, with no default
+> #Fit Random Forest Model
+> rf = randomForest(class ~ ., 
++                   ntree = 100,
++                   data = trainset)
+> plot(rf)
+> print(rf)
+
+Call:
+ randomForest(formula = class ~ ., data = trainset, ntree = 100) 
+               Type of random forest: classification
+                     Number of trees: 100
+No. of variables tried at each split: 4
+
+        OOB estimate of  error rate: 0%
+Confusion matrix:
+     e    p class.error
+e 3367    0           0
+p    0 3133           0
+> # Variable Importance
+> varImpPlot(rf,
++            sort = T,
++            n.var=10,
++            main="Top 10 - Variable Importance")
+> #Variable Importance
+> var.imp = data.frame(importance(rf,
++                                 type=2))
+> # make row names as columns
+> var.imp$Variables = row.names(var.imp)
+> print(var.imp[order(var.imp$MeanDecreaseGini,decreasing = T),])
+                         MeanDecreaseGini                Variables
+odor                         1017.4641840                     odor
+spore.print.color             529.6651826        spore.print.color
+gill.color                    272.3682937               gill.color
+gill.size                     224.9412095                gill.size
+ring.type                     195.2179343                ring.type
+stalk.surface.above.ring      174.7823364 stalk.surface.above.ring
+stalk.surface.below.ring      127.9389134 stalk.surface.below.ring
+population                    117.2212026               population
+stalk.root                     97.5049801               stalk.root
+habitat                        83.9086012                  habitat
+gill.spacing                   69.7113105             gill.spacing
+stalk.color.above.ring         57.8888593   stalk.color.above.ring
+stalk.color.below.ring         54.9286254   stalk.color.below.ring
+bruises                        49.7041102                  bruises
+cap.color                      49.1816941                cap.color
+ring.number                    42.5233942              ring.number
+stalk.shape                    37.7070262              stalk.shape
+cap.surface                    21.2169532              cap.surface
+cap.shape                       7.8604141                cap.shape
+gill.attachment                 2.6539259          gill.attachment
+veil.color                      0.5437046               veil.color
+veil.type                       0.0000000                veil.type
+> # Predicting response variable
+> trainset$predicted.response = predict(rf ,trainset)
+> 
+> # Create Confusion Matrix
+> print(
++     confusionMatrix(data = trainset$predicted.response,
++                     reference = traiset$class,
++                     positive = 'e'))
+Error in is.factor(reference) : object 'traiset' not found
+> # Create Confusion Matrix
+> print(
++     confusionMatrix(data = trainset$predicted.response,
++                     reference = trainset$class,
++                     positive = 'e'))
+Error in requireNamespaceQuietStop("e1071") : package e1071 is required
+> install.packages('e1071')
+Installing package into ‘C:/Users/M1024444/Documents/R/win-library/3.3’
+(as ‘lib’ is unspecified)
+trying URL 'https://mran.revolutionanalytics.com/snapshot/2016-11-01/bin/windows/contrib/3.3/e1071_1.6-7.zip'
+Content type 'application/zip' length 897152 bytes (876 KB)
+downloaded 876 KB
+
+package ‘e1071’ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\M1024444\AppData\Local\Temp\RtmpQFASUT\downloaded_packages
+> library(e1071)
+> # Create Confusion Matrix
+> print(
++     confusionMatrix(data = trainset$predicted.response,
++                     reference = trainset$class,
++                     positive = 'e'))
+Confusion Matrix and Statistics
+
+          Reference
+Prediction    e    p
+         e 3367    0
+         p    0 3133
+                                     
+               Accuracy : 1          
+                 95% CI : (0.9994, 1)
+    No Information Rate : 0.518      
+    P-Value [Acc > NIR] : < 2.2e-16  
+                                     
+                  Kappa : 1          
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.000      
+            Specificity : 1.000      
+         Pos Pred Value : 1.000      
+         Neg Pred Value : 1.000      
+             Prevalence : 0.518      
+         Detection Rate : 0.518      
+   Detection Prevalence : 0.518      
+      Balanced Accuracy : 1.000      
+                                     
+       'Positive' Class : e          
+                                     
+> # Predicting response variable
+> testset$predicted.response <- predict(rf ,testset)
+> # Create Confusion Matrix
+> print(
++     confusionMatrix(data=testset$predicted.response,
++                     reference=testset$class,
++                     positive='e'))
+Confusion Matrix and Statistics
+
+          Reference
+Prediction   e   p
+         e 841   0
+         p   0 783
+                                     
+               Accuracy : 1          
+                 95% CI : (0.9977, 1)
+    No Information Rate : 0.5179     
+    P-Value [Acc > NIR] : < 2.2e-16  
+                                     
+                  Kappa : 1          
+ Mcnemar's Test P-Value : NA         
+                                     
+            Sensitivity : 1.0000     
+            Specificity : 1.0000     
+         Pos Pred Value : 1.0000     
+         Neg Pred Value : 1.0000     
+             Prevalence : 0.5179     
+         Detection Rate : 0.5179     
+   Detection Prevalence : 0.5179     
+      Balanced Accuracy : 1.0000     
+                                     
+       'Positive' Class : e
